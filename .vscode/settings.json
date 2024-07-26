@@ -1,0 +1,14 @@
+{
+  "cSpell.words": [
+    "asyncpg",
+    "bytesio",
+    "cachetools",
+    "dataframe",
+    "fastapi",
+    "GSHEETS",
+    "gspread",
+    "hashkey",
+    "httpx",
+    "uvicorn"
+  ]
+}

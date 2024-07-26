@@ -1,0 +1,17 @@
+{
+  "packages": [
+    "python311@latest",
+    "poetry@latest",
+    "postgresql@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "poetry shell"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}
