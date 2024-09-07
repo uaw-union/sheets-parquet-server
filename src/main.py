@@ -136,7 +136,9 @@ async def get_worksheet_dataframe(
             )
             csv_string = pandas_df.to_csv(index=False)
             csv_string_as_bytesio = BytesIO(csv_string.encode("utf-8"))
-            polars_df = pl.read_csv(csv_string_as_bytesio)
+            polars_df = pl.read_csv(
+                csv_string_as_bytesio, infer_schema_length=None
+            )
             cache[cache_key] = polars_df
             return polars_df
 

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sheets-server"
-version = "0.1.3"
+version = "0.1.4"
 description = "A simple service that serves sheets by sheet_id/:worksheet_name as .csv or .parquet files. Uses PostgreSQL for configuration."
 authors = ["Ben Packer <ben.paul.ryan.packer@gmail.com>"]
 license = "MIT"
